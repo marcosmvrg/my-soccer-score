@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  my_soccer_score_db:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: 8ax#H88%1P4a
+      MYSQL_DATABASE: my_soccer_score
+      MYSQL_CHARSET: utf8mb4
+      MYSQL_COLLATION: utf8mb4_unicode_ci
+    ports:
+      - 3306:3306
+    volumes:
+      - ./init.sql:/init.sql
