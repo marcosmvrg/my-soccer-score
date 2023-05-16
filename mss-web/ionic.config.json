@@ -1,0 +1,7 @@
+{
+  "name": "mss-web",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
